@@ -1,4 +1,4 @@
-.footer{
+/* .footer{
   display: flex;
   align-items: center;
   position: relative;
@@ -13,5 +13,31 @@
   color: white;
   padding: 50px;
   height: auto;
-  /* width: 350px; Remove or adjust the width property */
+ 
+} */
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  position: relative;
 }
+
+.footerContent {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  padding: 20px; /* Adjust padding as needed for top and bottom spacing */
+  width: 100%; /* Use 100% width to adapt to different screen sizes */
+  max-width: 700px; /* Set a maximum width for the content */
+}
+
+
+/* Add a media query for smaller screens, adjust as needed */
+/* @media (max-width: 768px) {
+  .footerContent {
+    flex-direction: column;
+  }
+} */
