@@ -3,7 +3,7 @@
 }
 
 .bannerContent {
-position: absolute;
+    /* position: absolute;
 top: 20%;
 bottom: 20%;
 left: 20%;
@@ -12,17 +12,35 @@ display: flex;
 flex-direction: column;
 align-items: center;
 text-align: center;
-justify-content: center;
-color: #59108A;
-text-align: center;
-font-style: normal;
+justify-content: center; */
 
 }
+
+
+.bannerContent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('../assets//yellow_banner\ 2.png');
+    height: auto;
+    color: #59108A;
+    font-size: 30px;
+    padding: 20px 75px;
+}
 h2{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+/* h2{
     text-transform: uppercase;
+}
+
+.p{
+    font-family: Inter;
 }
 @media (max-width: 768px) {
     h2 {
         font-size: 0.8rem; 
     }
-} 
+}  */

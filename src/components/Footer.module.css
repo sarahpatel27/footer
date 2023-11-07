@@ -1,4 +1,4 @@
- .footer {
+ /* .footer {
     position: relative;
 
 }
@@ -12,7 +12,7 @@
     gap:30px;
     flex-wrap: wrap;
     color: white;
-    /* justify-content: space-between; */
+  
     transform: translate(-50%, -50%);
 } 
 
@@ -27,4 +27,13 @@ img{
     margin: auto;
     padding-top: 52px;
   }
+   */
+
+
+.footer{
+  background: url('../assets/footer_background 2.png');
+  background-size: cover;
+  height: 350px;
+  display: flex;;
   
+}
