@@ -25,10 +25,10 @@
 }
 
 .logo {
-  max-width: 100%;
+  max-width: 30%;
+  /* width: 200px; */
   height: auto;
-  margin-right: 20px;
-  margin-left: 70px;
+  margin: 20px 20px 20px 70px;
 }
 
 .footerContent p {
@@ -38,19 +38,22 @@
   font-family: 'Inter', sans-serif;
 }
 
-/* Responsive CSS  */
-@media (max-width: 850px) {
-  .logo {
-    max-width: 60%;
-    
-  }
-
+@media (max-width: 768px) {
   .footerContent {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: column; 
+    text-align: center; 
     padding: 17px;
     align-items: center;
   }
+  .logo{
+    max-width: 40%;
+  }
+}
 
+@media (max-width: 500px) {
+
+  .logo{
+    max-width: 50%;
+  }
 }
 
