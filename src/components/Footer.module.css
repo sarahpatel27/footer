@@ -48,8 +48,7 @@
   .footerContent {
     flex-direction: column;
     text-align: center;
-    /* margin-left:70px; */
-    padding: 30px;
+    padding: 17px;
     align-items: center;
   }
 
