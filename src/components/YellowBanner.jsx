@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./YellowBanner.module.css";
-import banner from "../assets/yellow_banner 2.png";
 
 export default function YellowBanner() {
   return (
