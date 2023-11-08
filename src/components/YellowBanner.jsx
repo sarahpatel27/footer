@@ -7,16 +7,16 @@ export default function YellowBanner({ havePara, p, heading }) {
   if (havePara) {
     return (
       <div className={styles.bannerContent}>
-         <h2>
+         <p>
           {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore. */}
-          {p}
-        </h2>
+          {heading}
+        </p>
         <p className={styles.para}>
           {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam. */}
-          {heading}
+          {p}
         </p>
       </div>
     );

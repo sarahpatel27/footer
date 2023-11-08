@@ -1,6 +1,8 @@
 .footer {
   position: relative;
   text-align: center;
+  background: url('../assets//footer_background\ 2.png') no-repeat ;
+  background-size: cover;
 }
 
 .backgroundImage {
@@ -38,6 +40,10 @@
 
 /* Responsive CSS  */
 @media (max-width: 850px) {
+  .logo {
+    max-width: 60%;
+    
+  }
 
   .footerContent {
     flex-direction: column;
@@ -46,4 +52,6 @@
     padding: 30px;
     align-items: center;
   }
+
 }
+
