@@ -7,11 +7,12 @@
     height: auto;
     color: #59108A;
     /* font-size: 40px; */
-    padding: 20px 75px;
+    padding: 22px 110px;
     
 }
 
 .bannerContent h2{
+    font-size: 40px;
     font-weight: lighter;
 }
 
@@ -23,17 +24,53 @@
 
 @media (max-width: 850px) {
 
-    .bannerContent{
-        font-size: 25px;
+    .bannerContent h2{
+        font-size: 2em;
     }
 
     .para{
-        font-size: 18px;
+        font-size: 1em;
+    }
+}
+@media (max-width: 650px) {
+
+    .bannerContent{
+        padding: 22px 80px;
+    }
+
+    .bannerContent h2{
+        font-size: 1.5em;
+    }
+
+    .para{
+        font-size: 0.9em;
     }
 }
 
-@media (max-width: 650px){
+@media (max-width: 530px) {
     .bannerContent{
-        padding: 20px 30px;
+        padding: 22px 70px;
+    }
+
+    .bannerContent h2{
+        font-size: 1em;
+    }
+
+    .para{
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 415px) {
+    .bannerContent{
+        padding: 22px 50px;
+    }
+
+    .bannerContent h2{
+        font-size: 0.8em;
+    }
+
+    .para{
+        font-size: 0.5em;
     }
 }

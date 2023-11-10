@@ -1,7 +1,6 @@
 .mainBanner {
     position: relative;
     width: 100%;
-    /* max-width: 1440px;  */
     margin: 0 auto;
 }
 
@@ -30,7 +29,7 @@
     font-family: 'Inter', sans-serif;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     .mainBannerContent h2 {
         font-size: 2em;
     }
@@ -40,10 +39,24 @@
     }
 }
 
-@media screen and (max-width: 480px) {
-    body {
-        font-size: 14px; 
+@media screen and (max-width: 650px) {
+
+
+    .mainBannerContent {
+        padding: 10px; 
     }
+    .mainBannerContent h2 {
+        font-size: 1.5em;
+        margin-bottom: 8px;
+    }
+
+    .mainBannerContent p {
+        font-size: 0.9em;
+    }
+}
+ 
+@media screen and (max-width: 530px) {
+
 
     .mainBannerContent {
         padding: 10px; 
@@ -57,10 +70,10 @@
         font-size: 0.8em;
     }
 }
-@media screen and (max-width: 350px) {
-    .mainBannerContent {
-        padding: 5px;
-    }
+
+
+@media screen and (max-width: 415px) {
+
 
     .mainBannerContent h2 {
         font-size: 0.8em;
