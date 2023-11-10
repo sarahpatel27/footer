@@ -2,7 +2,7 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import MainBanner from './components/Main Banner/MainBanner';
 import YellowBanner from './components/Yellow Banner/YellowBanner';
-import mb1 from './assets/Property 1=mb_1.png'
+import mb1 from './assets/mb_1.png'
 
 function App() {
 
