@@ -1,7 +1,7 @@
 .footer {
   position: relative;
   text-align: center;
-  background: url('../assets//footer_background\ 2.png') no-repeat ;
+  background: url('../../assets//footer_background\ 2.png') no-repeat ;
   background-size: cover;
 }
 

@@ -3,12 +3,16 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    background-image: url('../assets//yellow_banner\ 2.png');
+    background-image: url('../../assets/yellow_banner\ 2.png');
     height: auto;
     color: #59108A;
-    font-size: 40px;
+    /* font-size: 40px; */
     padding: 20px 75px;
-    font-weight:400;
+    
+}
+
+.bannerContent h2{
+    font-weight: lighter;
 }
 
 .para{
